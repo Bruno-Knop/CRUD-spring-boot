@@ -8,7 +8,7 @@ import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ReceiveValidateDocumentCustomer {
+public class ReceiveValidateDocumentConsumer {
 
     @Autowired
     private UpdateCustomerInputPort updateCustomerInputPort;

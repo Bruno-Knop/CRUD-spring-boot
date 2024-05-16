@@ -56,11 +56,11 @@ public class Customer {
         this.document = document;
     }
 
-    public Boolean getValidDocument() {
+    public Boolean getIsValidDocument() {
         return isValidDocument;
     }
 
-    public void setValidDocument(Boolean validDocument) {
-        isValidDocument = validDocument;
+    public void setIsValidDocument(Boolean IsValidDocument) {
+        isValidDocument = IsValidDocument;
     }
 }
